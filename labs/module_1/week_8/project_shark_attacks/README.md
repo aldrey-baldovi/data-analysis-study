@@ -10,7 +10,7 @@ This dataset provides a global shark attack information.
 ## Objective
 The central objective of this project was to answer a problem statement practicing data cleaning and data manipulation.
 
-## Resources:
+## Resources
 
  - Python
  - Jupyter Notebook
@@ -38,26 +38,33 @@ There are more death cases:
  - [ ] in **summer** seasons
 	
  3. Cleaning and Manipulating dataset
+ 
  **Filtering dataset**
-The dataset was filtered to use only the needed columns to answer the hypothesis presented: 
+ 
+   - The dataset was filtered to use only the needed columns to answer the hypothesis presented: 
+
 ```df = ['date', 'year', 'type', 'country', 'sex', 'age','species','activity','fatal']```
 
-    **Renaming columns**
-    Lower case and no spaces
-    
-    **Working with null values**
-    Dropping lines or replacing values
-    
-    **Correcting and manipulating data**
-    - **fix_sex function:** to correct data from `df['sex']`
-    - `.fillna()` and `.loc` to correct data from `df['fatal']`
-    - **fix_age function:** to correct data from `df['age']`
-    - **fix_activity function:** to correct data from `df['activity']`
-	- `.groupby()` to group columns
-	- `.query()` to consult dataset
+ **Renaming columns**
  
-	 **Establishing intervals**
-    It was established intervals to `df['age']` and `df['year']`:
+   - Lower case and no spaces
+    
+ **Working with null values**
+ 
+   - Dropping lines or replacing values
+    
+ **Correcting and manipulating data**
+ 
+   - **fix_sex function:** to correct data from `df['sex']`
+   - `.fillna()` and `.loc` to correct data from `df['fatal']`
+   - **fix_age function:** to correct data from `df['age']`
+   - **fix_activity function:** to correct data from `df['activity']`
+   - `.groupby()` to group columns
+   - `.query()` to consult dataset
+ 
+ **Establishing intervals**
+ 
+It was established intervals to `df['age']` and `df['year']`:
 
 Table 1. Intervals to `df['age']`
 |CATEGORY| AGE |
