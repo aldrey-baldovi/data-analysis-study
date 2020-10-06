@@ -278,16 +278,6 @@ Table X. Fatal cases by sex male and female by 21th century by age group
 
 Age group with more cases: **Young Adult**
 
-### Are there more death cases in locations with no legislation or safety measures?
-### Are there more death cases in summer seasons?
-
-
-
-
-
----
-## Conclusion
-
 
 
 
